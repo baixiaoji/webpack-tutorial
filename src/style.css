@@ -1,3 +1,9 @@
-.hello
+.hello{
     color:red;
     transition: all ease .1s;
+    background: url("./vim.jpg");
+}
+img{
+    width:100px;
+    height:100px;
+}
