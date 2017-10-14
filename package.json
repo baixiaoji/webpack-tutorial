@@ -1,0 +1,26 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "2017年10月14日 11:47:48",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baixiaoji/webpack-tutorial.git"
+  },
+  "keywords": [],
+  "author": "baixiaoji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baixiaoji/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/baixiaoji/webpack-tutorial#readme",
+  "devDependencies": {
+    "webpack": "^3.7.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
