@@ -28,7 +28,11 @@ class Person {
   sayHi(){
       console.log(`hi~,我的名字叫${this.name}`)
   }
+  sayAge(){
+    console.log(`I am ${this.age} years old, now`)
+  }
 }
 Person.sayHi()
 const man = new Person("baiji",20)
 man.sayHi()
+man.sayAge()
