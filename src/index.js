@@ -18,8 +18,17 @@
 // Person.sayHi()
 // document.body.appendChild(component());
 class Person {
+  constructor(name,age){
+      this.name = name;
+      this.age = age
+  }
   static sayHi(){
       console.log("hi")
   }
+  sayHi(){
+      console.log(`hi~,我的名字叫${this.name}`)
+  }
 }
 Person.sayHi()
+const man = new Person("baiji",20)
+man.sayHi()
