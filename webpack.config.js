@@ -1,10 +1,10 @@
 const path = require("path")
 const webpack = require("webpack")
 module.exports = {
-    devServer: { // 这里配置webpack-dev-server
-        publicPath: "/dist/",
-        // hot: true,
-    },
+   devServer: { // 这里配置webpack-dev-server
+       publicPath: "/dist/",
+        hot: true,
+   },
     // 文件的入口
     entry: './src/index.js',
     // 文件的导出目录
