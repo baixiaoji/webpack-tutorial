@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --colors --config ./webpack.config.js",
     "watch": "webpack --watch --colors",
-    "dev":"webpack-dev-server --colors --config ./webpack.config.js"
+    "dev":"webpack-dev-server --open  --colors --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
