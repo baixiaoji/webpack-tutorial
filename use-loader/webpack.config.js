@@ -11,7 +11,16 @@ module:{
       test:/\.js$/, // 匹配规则
       use: 'babel-loader', // 使用那个loader处理文件
       exclude:/node_module/ , //不包括的目录
-    }
+    },
+    {
+      test:/\.css$/,
+      use:['style-loader',{
+           loader:'css-loader',
+           options:{
+              modules:true
+           }
+      }]
+    }   
 ]
 }
 }
