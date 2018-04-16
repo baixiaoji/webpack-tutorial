@@ -1,0 +1,25 @@
+{
+  "name": "webpack-tutorial",
+  "version": "0.0.1",
+  "description": "it's the template for font-end developer to build the modern project",
+  "main": "./dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baixiaoji/webpack-tutorial.git"
+  },
+  "keywords": [
+    "webpack",
+    "font-end",
+    "modern",
+    "project"
+  ],
+  "author": "baixiaoji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baixiaoji/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/baixiaoji/webpack-tutorial#readme"
+}
