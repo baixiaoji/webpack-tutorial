@@ -13,13 +13,15 @@
   "keywords": [
     "webpack",
     "font-end",
-    "modern",
-    "project"
+    "modern-project"
   ],
   "author": "baixiaoji",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/baixiaoji/webpack-tutorial/issues"
   },
-  "homepage": "https://github.com/baixiaoji/webpack-tutorial#readme"
+  "homepage": "https://github.com/baixiaoji/webpack-tutorial#readme",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  }
 }
