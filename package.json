@@ -5,7 +5,7 @@
   "main": "./dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "rm -rf dist/ && npx webpack"
+    "webpack": "rm -rf dist/ && npx webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,10 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.20.3",
     "webpack": "^3.11.0"
   }
 }
