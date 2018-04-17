@@ -21,6 +21,24 @@ module.exports = {
             {
                 test: /\.less$/,
                 use: ['style-loader','css-loader','less-loader']
+            },
+            {
+                test: /\.(png|jpe?g|svg|gif)$/,
+                use:[
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[path][name].[ext]'
+                        }
+                    }
+                    // {
+                    //     loader: 'url-loader',
+                    //     options: {
+                    //         limit: 8192,
+                    //     }
+                    // },
+                    // 'img-loader'
+                ]
             }
         ]
     }
