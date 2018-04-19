@@ -1,5 +1,6 @@
 import './css/app.css'
 import './css/app.less'
+import './css/index.css'
 let BD = {
     name: 'bigdream',
     member: ['zlj', 'zpj', 'zpk', 'jh', 'gxf', 'yj'],
