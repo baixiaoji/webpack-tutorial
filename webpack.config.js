@@ -23,7 +23,7 @@ module.exports = {
                 use: ['style-loader','css-loader','less-loader']
             },
             {
-                test: /\.(png|jpe?g|svg|gif)$/,
+                test: /\.(png|jpe?g|gif)$/,
                 use:[
                     {
                         loader: 'file-loader',
@@ -39,6 +39,17 @@ module.exports = {
                     // },
                     // 'img-loader'
                 ]
+            },
+            {
+                test: /\.(eot|svg|ttf|woff2?)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[path][name].[ext]'
+                        }
+                    }
+                ],
             }
         ]
     }
