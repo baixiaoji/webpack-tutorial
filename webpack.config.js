@@ -1,8 +1,11 @@
 const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
     entry: {
-        app: './src/app.js'
+        app: './src/app.js',
+        index: './src/index.js',
+        vendor: './src/sum.js'
     },
     output: {
         path: path.resolve(__dirname, './dist'),
@@ -40,17 +43,17 @@ module.exports = {
                     // 'img-loader'
                 ]
             },
-            // {
-            //     test: /\.(eot|svg|ttf|woff2?)$/,
-            //     use: [
-            //         {
-            //             loader: 'file-loader',
-            //             options: {
-            //                 name: '[path][name].[ext]'
-            //             }
-            //         }
-            //     ],
-            // }
         ]
-    }
+    },
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'common',
+            minChunk: 2,
+            chunks: ['app', 'index'],
+        }),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: ['vendor','manifest'],
+            minChunk: Infinity,
+        }),
+    ]
 }
