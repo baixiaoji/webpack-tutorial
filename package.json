@@ -29,7 +29,7 @@
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
-    "img-loader": "^2.0.1",
+    "img-loader": "^3.0.0",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
     "style-loader": "^0.20.3",
